@@ -20,6 +20,9 @@
             Console.WriteLine("Kõige vanem inimene on " + people.Max(x => x.Age));
             Console.WriteLine("MaxBy:" + people.MaxBy(p => p.Age)?.Name);
 
+            // MAX returns the max value of an object in a sequence 
+            // MaxBy returns the whole object that has the max value in a sequence
+
 
         }
     }
